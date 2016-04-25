@@ -82,7 +82,7 @@ map.on('click', function(){
 
 //Dot on map showing current location
 
-var myLocation - L.mapbox.featureLayer()
+var myLocation = L.mapbox.featureLayer()
 	myLocation.addTo(map);
 
 map.on('locationfound'. function(e){
