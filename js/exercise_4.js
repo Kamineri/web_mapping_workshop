@@ -52,11 +52,11 @@ var clickHandler = function(e){
   
   var feature = e.target.feature;
   
-  $('#info").fadeIn(400, function(){
+  $('#info').fadeIn(400, function(){
     var info = ' ';
     info += '<div>',
     info += 	'<h2>' + feature.properties.LABEL + '<h2>';
-    info += 	'<p>' + feature.properties.LACATION + '<p>';
+    info += 	'<p>' + feature.properties.LOCATION + '<p>';
     info += '<div>';
     
     $('#info').append(info);
