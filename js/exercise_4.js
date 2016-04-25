@@ -89,7 +89,7 @@ map.on('locationfound', function(e){
 
 	myLocation.setGeoJSON({
       
-      type; 'Feature',
+      type: 'Feature',
       geometry: {
     		type: 'Point',
       		coordinates: [e.latlng.lng, e.latlng.lat]
@@ -101,4 +101,4 @@ map.on('locationfound', function(e){
 	}
 })
 
-map.locate({setVies: true });
+map.locate({setView: true });
