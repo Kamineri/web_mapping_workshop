@@ -99,6 +99,7 @@ map.on('locationfound', function(e){
        "marker-color": '#ff8888',
        "marker-symbol": 'star'
 	}
+	})
 })
 
-map.locate({setView: true });
+map.locate({ setView: true });
