@@ -18,6 +18,7 @@ map.setView([39, -96], 4);
 // Great, now we have a basic web map!
 
 // add new layer
+
 var dataFileToAdd = 'data/parks.geojson';
 
 var featureLayer = L.mapbox.featureLayer();
@@ -25,6 +26,7 @@ var featureLayer = L.mapbox.featureLayer();
 	featureLayer.addTo(map);
 
 //set custom colors, fills, weight
+
 featureLayer.on('ready', function(){
   this.setStyle({
   	"color":"6583BF",
